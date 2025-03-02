@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+    <style>
+        .poppins-font {
+            font-family: "Poppins", sans-serif;
+            
+            }
+
+    </style>
+</head>
+<body class="poppins-font bg-slate-100 pt-10">
+    <!-- navbar -->
+    <nav class="max-w-7xl mx-auto shadow-md py-2 px-4 rounded-md bg-white">
+        <div class="flex items-center justify-between">
+            <!-- left -->
+             <div class="flex items-center gap-1">
+                <img  src="./A5-Dev-Board/assets/logo.png" alt="">
+                <h1 class="text-xl">Dev<span class="font-bold">Board</span></h1>
+             </div>
+             <!-- right -->
+              <div>
+                <button onclick="home()" class="bg-[#3752FD] py-2 px-3 text-white rounded-md">Back Home</button>
+              </div>
+        </div>
+    </nav>
+
+    <p class="font-bold text-xl text-center p-5 mt-7">Blogs</p>
+
+    <div class="max-w-7xl mx-auto mt-6 rounded-md">
+        <p class="bg-white py-2 px-3 rounded-md mb-5">Question-1: What are the different ways to select an element in the DOM?
+        </p>
+        <p class="bg-white py-2 px-3 rounded-md mb-5">Answer-1: The different ways to select an element in the DOM are getElementById(), getElementsByClassName(), getElementsByTagName(), querySelector(), and querySelectorAll().</p>
+        <p class="bg-white py-2 px-3 rounded-md mb-5">Question-2: What is the difference between innerHTML, innerText, and textContent ?
+        </p>
+        <p class="bg-white py-2 px-3 rounded-md mb-5">Answer-2: innerHTML returns or sets HTML content, innerText returns only visible text, and textContent returns all text, including hidden ones.</p>
+        <p class="bg-white py-2 px-3 rounded-md mb-5">Question-3: What is event delegation in the DOM?
+        </p>
+        <p class="bg-white py-2 px-3 rounded-md mb-5">Answer-3: Event delegation is a technique where a parent element handles events for its child elements using event bubbling, improving performance.</p>
+        <p class="bg-white py-2 px-3 rounded-md mb-5">Question-4: What is event bubbling in the DOM?
+        </p>
+        <p class="bg-white py-2 px-3 rounded-md mb-5">Answer-4: Event bubbling is the process where an event starts from the target element and propagates up to its ancestors in the DOM hierarchy.</p>
+
+    </div>
+    <script src="./js/button_click.js"></script>
+</body>
+</html>
+
