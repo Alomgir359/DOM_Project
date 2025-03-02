@@ -216,7 +216,7 @@ function Clear(){
 
 
 function home(){
-    window.location.href="../index.html"
+    window.location.href="./index.html"
 }
 
 function discover(){
